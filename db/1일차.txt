@@ -1,0 +1,55 @@
+데이터 베이스의 핵심적인작업
+CRUD
+CREATE
+READ
+UPDATE
+DELETE
+스프레드 시트 와 파일중에서
+왜 스프레드 시트를 쓰는가
+활용방면에서 좋기떄문
+ex 파일에 대비해서 Spreadsheet는 데이터베이스로 가는 길목에 있다. (DB적 특성 가짐)
+Spreadsheet와 DB 차이점
+DB->프로그래밍적 or컴퓨터 언어를 이용해서  데이터를 추가,수정,삭제,읽기가 가능-->자동화할수있다
+
+
+DB는 관계형 데이터베이스가(Oracle,MySQL,MS SQL Server,PostgreSQL) 
+주 시장을 이루고 있지만 최근에는 관계형 데이터베이스가 아닌 것들이(MongoDB)
+폭발적으로 생겨나고있는게
+ 시장의 흐름
+
+
+mysql
+웹페이지를 통해 표현할 데이터 베이스 저장 ---> 오픈소스 ,무료인 mysql 사용
+웹과함께 폭발적인 성장
+
+db
+표(데이터) -> 스키마(DB) -> DB 서버
+스키마:표들을 그룹핑할떄 사용하는 폴더
+서버:그 많은 스키마들을 보관할떄 사용
+dbsever
+
+sql 서버 들어가는법
+cmd 실행
+C:\Bitnami\wampstack-7.3.19-0\mysql\bin
+mysql - uroot -p
+
+데이터베이스 생성
+CREATE DATABASE 이름 ;
+DROP       -         이름 ;
+USE [NAME]; ->선언 이후 내리는 명령은 [NAME] DB에 있는 표를 대상으로 실행
+
+SQL 
+Structured 구조화된것 
+Query 데이터 베이스 요청 
+Language 공통의약속에 따라 데이터 서버에서 요청할때  사용하는 언어 sql 
+
+두가지 특징
+1.쉬움
+2.중요함**
+
+row 행 --데이터 자체 
+column 열 --데이터의 구조
+
+값이없는 상태로 추가하지마라 !! NOT NULL
+값허용 null
+ 
